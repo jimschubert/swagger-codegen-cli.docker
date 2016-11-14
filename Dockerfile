@@ -13,6 +13,8 @@ RUN set -x \
 
 VOLUME /swagger-api/out
 
+WORKDIR /swagger-api/out
+
 COPY docker-entrypoint.sh /
 
 RUN cd /swagger-api/swagger-codegen && \
