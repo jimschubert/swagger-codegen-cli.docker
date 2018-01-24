@@ -2,7 +2,7 @@ FROM jimschubert/8-jdk-alpine-mvn:latest
 
 MAINTAINER Jim Schubert <james.schubert@gmail.com>
 
-ENV SWAGGER_CODEGEN_VERSION=2.3.0
+ENV SWAGGER_CODEGEN_VERSION=2.3.1
 
 RUN set -x \
     && mkdir -p /swagger-api/out \
