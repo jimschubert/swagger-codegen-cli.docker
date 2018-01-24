@@ -18,7 +18,7 @@ WORKDIR /swagger-api/out
 COPY docker-entrypoint.sh /
 
 RUN cd /swagger-api/swagger-codegen && \
-    mvn -am -pl "modules/swagger-codegen-cli" package -Dmaven.test.skip=true -DskipTests && \
+    mvn -am -pl "modules/swagger-codegen-cli" package -DskipTests && \
     rm -rf ${MAVEN_HOME}/.m2/repository
 
 ENTRYPOINT ["/docker-entrypoint.sh"]
