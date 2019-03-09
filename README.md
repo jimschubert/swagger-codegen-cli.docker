@@ -1,5 +1,7 @@
 # [swagger-codegen-cli.docker](https://github.com/jimschubert/swagger-codegen-cli.docker)
 
+:warning: This is no longer maintained. I'm now a maintainer of [openapi-generator-cli](https://cloud.docker.com/u/openapitools/repository/docker/openapitools/openapi-generator-cli). :warning:
+
 Dockerfile for running Swagger Codegen.
 
 This allows users to generate code without installing Java on the host machine, or without updating from Java 1.6 (we all have our reasons).
